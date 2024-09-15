@@ -1,0 +1,35 @@
+/* there is a font named "DepartureMono-Regular.otf" , use it if you can */
+
+@font-face {
+  font-family: "DepartureMono";
+  src: url("DepartureMono-Regular.otf") format("opentype");
+}
+
+body {
+  font-family: "DepartureMono", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 100;
+}
+
+.mentions {
+  font-size: 12px;
+}
